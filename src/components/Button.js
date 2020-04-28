@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 export default styled.button`
   background: ${(props) => (props.active ? "palevioletred" : "white")};
-  color: ${(props) => (props.active ? "white" : "palevioletred")};
+  color: ${(props) => (props.active ? "white" : "gray")};
   cursor: ${(props) => (props.active ? "pointer" : "")};
   width: 100%;
   font-size: 1em;
   padding: 0.25em 1em;
-  border: 2px solid palevioletred;
+  border: 2px solid gray;
   border-radius: 3px;
+  margin-top: 1rem;
 `;
